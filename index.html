@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pocket Classroom</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Emoji Favicon (Classroom) -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2216%22>🏫</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pocket Classroom</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarRight"
+          aria-controls="navbarRight"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarRight"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" id="nav-library">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="nav-author">Author</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="nav-learn">Learn</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container my-4">
+      <!-- Library Section -->
+      <section id="section-library">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div>
+            <h2>Your Capsules</h2>
+            <small class="text-muted"
+              >Create, Import, Export, and Manage Learning Capsules. All data is
+              stored in your browser.</small
+            >
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-success" id="btn-new-capsule">
+              New Capsule
+            </button>
+            <button class="btn btn-primary" id="btn-import-capsule">
+              Import JSON
+            </button>
+          </div>
+        </div>
+        <div class="row" id="library-capsules">
+          <!-- Capsules will render here -->
+        </div>
+      </section>
+
+      <!-- Author Section -->
+      <section id="section-author" class="d-none">
+        <!-- Author content will render here -->
+      </section>
+
+      <!-- Learn Section -->
+      <section id="section-learn" class="d-none">
+        <!-- Learn content will render here -->
+      </section>
+    </div>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Modules -->
+    <script type="module" src="js/main.js"></script>
+
+    <footer id="main-footer">
+      <p>© 2025 Pocket Classroom by Noorani | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

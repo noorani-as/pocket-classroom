@@ -1,0 +1,38 @@
+{
+  "schema": "pocket-classroom/v1",
+  "id": "capsule1",
+  "meta": {
+    "title": "HTML Basics",
+    "subject": "Web Development",
+    "level": "Beginner",
+    "description": "Introduction to HTML structure and tags",
+    "updatedAt": "2025-10-17T12:00:00Z"
+  },
+  "notes": [
+    "HTML stands for HyperText Markup Language.",
+    "HTML uses tags to structure content on the web.",
+    "Headings use <h1> to <h6> tags.",
+    "Paragraphs use <p> tags.",
+    "Links use <a> tags with href attribute."
+  ],
+  "flashcards": [],
+  "quiz": [
+    {
+      "question": "What does HTML stand for?",
+      "choices": [
+        "HyperText Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup",
+        "HighText Machine Language"
+      ],
+      "correctIndex": 0,
+      "explanation": "HTML is HyperText Markup Language."
+    },
+    {
+      "question": "Which tag is used for paragraphs?",
+      "choices": ["<p>", "<h1>", "<a>", "<div>"],
+      "correctIndex": 0,
+      "explanation": "Paragraphs in HTML use the <p> tag."
+    }
+  ]
+}
